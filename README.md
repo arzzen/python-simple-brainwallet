@@ -1,7 +1,6 @@
-Simple BrainWallet
+Brainwallet
 ======================
 
-*BrainWallet*
 A brainwallet refers to the concept of storing Bitcoins in one's own mind by memorization of a passphrase. As long as the passphrase is not recorded anywhere, the Bitcoins can be thought of as existing nowhere except in the mind of the holder. If a brainwallet is forgotten or the person dies or is permanently incapacitated, the Bitcoins are lost forever.
 
 A brainwallet is created simply by starting with a unique phrase. The phrase must be sufficiently long to prevent brute-force guessing - a short password, a simple phrase, or a phrase taken from published literature is likely to be stolen by hackers who use computers to quickly try combinations. A suggestion is to take a memorable phrase and change it in a silly way that is difficult to predict.
@@ -20,7 +19,7 @@ Dependences:
 Usage:
 ======================
 ```
-addressgen.py "passphrase"
+python addressgen.py "passphrase"
 ```
 
 Example:
