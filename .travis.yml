@@ -6,8 +6,6 @@ python:
 install: 
   - pip install unittest2
   - pip install ecdsa 
-  - pip install hashlib
-#  - pip install -r requirements.txt
 # command to run tests
 script: 
   - python runtests.py
