@@ -1,4 +1,4 @@
-Brainwallet
+Brainwallet [![Build Status](https://travis-ci.org/arzzen/python-simple-brainwallet.svg)](https://travis-ci.org/arzzen/python-simple-brainwallet)
 ======================
 
 A brainwallet refers to the concept of storing Bitcoins in one's own mind by memorization of a passphrase. As long as the passphrase is not recorded anywhere, the Bitcoins can be thought of as existing nowhere except in the mind of the holder. If a brainwallet is forgotten or the person dies or is permanently incapacitated, the Bitcoins are lost forever.
