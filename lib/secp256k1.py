@@ -1,5 +1,6 @@
 #!/usr/bin/python
 
+# sudo pip install ecdsa
 import ecdsa
 
 # https://en.bitcoin.it/wiki/Secp256k1
