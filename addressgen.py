@@ -9,5 +9,5 @@ if __name__ == "__main__":
     phrase = str(sys.argv[1])
   
     print "pass phrase: " + phrase
-    print "private key: " + private_key(phrase) #private_key(phrase)
-    print "BTC address: " + public_key(phrase) #public_key(phrase)
+    print "private key: " + private_key(phrase) 
+    print "BTC address: " + public_key(phrase) 
