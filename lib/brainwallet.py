@@ -22,9 +22,10 @@ def generate_address(private_key):
         pubnumlist.append(pubnum % 58);
         pubnum /= 58
 
+    # base58
     address=''
-
-    for l in ['123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz'[x] for x in pubnumlist]:
+    b58_digits = '123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz'
+    for l in [b58_digits[x] for x in pubnumlist]:
         address = l + address
 
     return '1' + address
